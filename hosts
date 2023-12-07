@@ -1,0 +1,10 @@
+[manager]
+107.23.189.11
+
+[worker]
+3.93.188.238
+52.90.150.86
+
+[all:vars]
+ansible_ssh_private_key_file=~/workspace/fc-ansible/test.pem
+ansible_user=ubuntu
